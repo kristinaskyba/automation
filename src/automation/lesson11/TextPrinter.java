@@ -37,27 +37,34 @@ public class TextPrinter {
     public static void readAndOutputText(String[] words) {
         Scanner scanner = new Scanner(System.in);
         int lineCount = 0;
-        try {
-            int i = 0;
-            while ( true ) {
+        for (int i = 0; i < words.length; i++) {
+            try {
                 System.out.println("Word: " + words[i]);
                 System.out.print("Repeat word here: ");
                 String userInput = scanner.nextLine();
                 // scanner.close(); //<----NullPointerException
-                if (userInput.equals(words[i])) {
-                    lineCount++;
+                if (containsNumbers(userInput)) {
+                    throw new InputMismatchException();
                 }
-                i++;
+                if (! userInput.equals(words[i])) {
+                    throw new RuntimeException();
+                } else
+                    lineCount++;
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("You wrote too many words : " + e.getMessage());
+            } catch (InputMismatchException e) { //<----can't get this working
+                System.out.println("Error, line contains numbers " + e.getMessage());
+            } catch (NullPointerException e) {
+                System.out.println("Error, scanner is closed " + e.getMessage());
+            } catch (RuntimeException e) {
+                System.out.println("Lines doesn't match : " + e.getMessage());
             }
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println("Your score is : " + lineCount);
-            System.out.println("Too many words " + e.getMessage());
-        } catch (InputMismatchException e) { //<----can't get this working
-            System.out.println("Error, words are not similar " + e.getMessage());
-        } catch (
-                NullPointerException e) {
-            System.out.println("Error, scanner is closed " + e.getMessage());
         }
+        System.out.println("Your score is: " +lineCount);
+    }
+
+    private static boolean containsNumbers(String userInput) {
+        return userInput.matches(".*\\d.*");
     }
 }
 

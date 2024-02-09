@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eaf9adc-c704-43d6-9a24-86e2139b51d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson1/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson1/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson11/TextPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson2/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson2/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson3/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson3/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson4/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson4/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson5/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson5/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson6/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson6/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson7/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson7/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson8/ArrayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/lesson8/Arrays.java" afterDir="false" />
+    <list default="true" id="3eaf9adc-c704-43d6-9a24-86e2139b51d0" name="Changes" comment="first upload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/lesson11/TextPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/lesson11/TextPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +48,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707487836322</updated>
     </task>
+    <task id="LOCAL-00001" summary="first upload">
+      <option name="closed" value="true" />
+      <created>1707488214602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707488214602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="first upload" />
   </component>
 </project>
